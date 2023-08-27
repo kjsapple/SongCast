@@ -1,0 +1,79 @@
+extends layout
+
+block content
+  .row.page-header
+    .col-lg-12
+      h1(style="color: #000000") I Don't Care
+  .row
+    .col-xs-12.col-md-9
+      .row
+        .col-xs-12.col-sm-6
+          p.rating
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-empty
+            span.glyphicon.glyphicon-star-empty
+            .panel.panel-primary
+            .panel-heading
+              h5.panel-title(style="color: #000000") Song by Ed Sheeran and Justin Bieber
+            .panel-body
+
+          .panel.panel-primary
+            .panel-heading
+              h5.panel-title(style="color: #000000") About
+            .panel-body
+              p "I Don't Care" is a song by English singer-songwriter Ed Sheeran and Canadian singer Justin Bieber. It was released on May 10, 2019, through Asylum, Atlantic Records and Def Jam Recordings as the lead single from the former's compilation album, No.6 Collaborations Project (2019).
+
+          .panel.panel-primary
+            .panel-heading
+             h5.panel-title(style="color: #000000") About the artist
+            .panel-body
+              p Edward Christopher Sheeran MBE (/ˈʃɪərən/ SHEER-ən; born 17 February 1991) is an English singer-songwriter. Born in Halifax, West Yorkshire, and raised in Framlingham, Suffolk, he began writing songs around the age of eleven.
+            
+        .col-xs-12.col-sm-6.location-map
+          .panel.panel-primary
+            .panel-heading
+
+            .panel-body
+              img(src='https://upload.wikimedia.org/wikipedia/en/6/69/Ed_Sheeran_%26_Justin_Bieber_-_I_Don%27t_Care.png', width='400', height='400',alt='Italian Trulli',  aria-label='Placeholder: Image cap', focusable='false', role='img', preserveAspectRatio='xMidYMid slice',  style='font-size:1.125rem;text-anchor:middle')
+      .row
+        .col-xs-12
+          .panel.panel-primary.review-panel
+            .panel-heading
+              a.button.btn.btn-info(type='button', href='/songs/review/new' ) Add Review
+              h2.panel-title Listeners reviews
+            .panel-body.review-container
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                  span.reviewAuthor
+                    strong Sherlock Holmes 
+                  small.reviewTimestamp 
+                    strong 16 July 2013
+                  .col-xs-12
+                    p 
+                      em  I will never ever rate this lower than 5 stars. BEAUTIFUL.
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                      span.glyphicon.glyphicon-star-empty
+                      
+                  span.reviewAuthor
+                    strong Mr Res
+                  small.reviewTimestamp 
+                    strong 16 July 2013
+                  .col-xs-12
+                    p 
+                      em  What a great book. Love the creativity

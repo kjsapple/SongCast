@@ -1,0 +1,118 @@
+extends layout
+
+block content
+  #banner.page-header
+    .row
+      .col-lg-6
+        h1
+          | 
+          small &nbsp;
+
+    .col-lg-12.col-sm-4
+      p.lead
+        | SongCast : Everything about Songs!
+    
+  .row
+      .col-sm-6
+        .bs-component 
+        .card.mb-3
+          h6.card-header Trending #1
+          .card-body
+            h5.card-title 
+              a(href='/songs/Blinding Lights') Blinding Lights
+            h6.card-subtitle.text-muted  Song by The Weeknd
+          img(src='https://upload.wikimedia.org/wikipedia/en/e/e6/The_Weeknd_-_Blinding_Lights.png', width='200', height='200',alt='Italian Trulli',  aria-label='Placeholder: Image cap', focusable='false', role='img', preserveAspectRatio='xMidYMid slice',  style='font-size:1.125rem;text-anchor:middle')
+            rect(width='100%', height='100%', fill='#868e96')
+            text(x='50%', y='50%', fill='#dee2e6', dy='.3em') Image cap
+          .card-body
+            p.card-text
+              | "Blinding Lights" is a song by Canadian singer the Weeknd. It was released on November 29, 2019, through XO and Republic Records, as the second single from his fourth studio album, After Hours (2020).
+          ul.list-group.list-group-flush
+            li.list-group-item Album: After Hours
+            li.list-group-item Average Rating - 4.9 
+            li.list-group-item Genres
+              | &nbsp;   
+              span.badge.rounded-pill.bg-secondary Synth-pop
+              | &nbsp;   
+              span.badge.rounded-pill.bg-secondary Electro-pop
+              | &nbsp;   
+              span.badge.rounded-pill.bg-secondary New Wave
+              | &nbsp;   
+          .card-footer.text-muted
+            | 2 days ago
+      .col-sm-6
+        .bs-component 
+        .card.mb-3
+          h6.card-header Trending #2
+          .card-body
+            h5.card-title 
+              a(href='/songs/Bones') Bones
+            h6.card-subtitle.text-muted  Song by Imagine Dragons
+          img(src='https://upload.wikimedia.org/wikipedia/en/b/bb/Imagine_Dragons_Bones_cover.jpg', width='200', height='200', alt='Italian Trulli',  aria-label='Placeholder: Image cap', focusable='false', role='img', preserveAspectRatio='xMidYMid slice',  style='font-size:1.125rem;text-anchor:middle')
+            rect(width='100%', height='100%', fill='#868e96')
+            text(x='50%', y='50%', fill='#dee2e6', dy='.3em') Image cap
+          .card-body
+            p.card-text
+              | "Bones" is a song by American pop rock band Imagine Dragons. The song was released through Interscope and Kidinakorner on March 11, 2022, as the lead single from the band's sixth studio album, Mercury – Acts 1 & 2.[1] It was written by Dan Reynolds, Wayne Sermon, Ben McKee, Daniel Platzman, and its producers Mattman & Robin.
+          ul.list-group.list-group-flush
+            li.list-group-item Album: Bones
+            li.list-group-item Average Rating - 4.5
+            li.list-group-item Genres
+              | &nbsp;   
+              span.badge.rounded-pill.bg-secondary Rock
+              | &nbsp;     
+          .card-footer.text-muted
+            | 6 days ago
+      .col-sm-6
+        .bs-component 
+        .card.mb-3
+          h6.card-header Trending #3
+          .card-body
+            h5.card-title 
+              a(href='/songs/wd') Wildest Dreams(Taylor's Version)
+            h6.card-subtitle.text-muted  Song by Taylor Swift
+          img.center(src='https://upload.wikimedia.org/wikipedia/en/f/ff/Wildest_Dreams_%28Taylor%27s_Version%29_-_Taylor_Swift.png', width='200', height='200', alt='Italian Trulli',  aria-label='Placeholder: Image cap', focusable='false', role='img', preserveAspectRatio='xMidYMid slice',  style='font-size:1.125rem;text-anchor:middle')
+            rect(width='100%', height='100%', fill='#868e96')
+            text(x='50%', y='50%', fill='#dee2e6', dy='.3em') Image cap
+          .card-body
+            p.card-text
+              | A re-recorded version of "Wildest Dreams", titled "Wildest Dreams (Taylor's Version)", was released by Swift on September 17, 2021, via Republic Records.
+          ul.list-group.list-group-flush
+            li.list-group-item Album: 1989(Taylor's Version)
+            li.list-group-item Average Rating - 4.6
+            li.list-group-item Genres
+              | &nbsp;   
+              span.badge.rounded-pill.bg-secondary Dream-pop
+              | &nbsp;   
+              span.badge.rounded-pill.bg-secondary soft
+              | &nbsp;   
+              span.badge.rounded-pill.bg-secondary Electro-pop
+              | &nbsp;    
+          .card-footer.text-muted
+            | 10 days ago
+      .col-sm-6
+        .bs-component 
+        .card.mb-3
+          h6.card-header Trending #4
+          .card-body
+            h5.card-title 
+              a(href='/songs/idc') I Don't Care
+            h6.card-subtitle.text-muted  Song by Ed Sheeran and Justin Bieber
+          img.center(src='https://upload.wikimedia.org/wikipedia/en/6/69/Ed_Sheeran_%26_Justin_Bieber_-_I_Don%27t_Care.png', width='200', height='200', alt='Italian Trulli',  aria-label='Placeholder: Image cap', focusable='false', role='img', preserveAspectRatio='xMidYMid slice',  style='font-size:1.125rem;text-anchor:middle')
+            rect(width='100%', height='100%', fill='#868e96')
+            text(x='50%', y='50%', fill='#dee2e6', dy='.3em') Image cap
+          .card-body
+            p.card-text
+              | "I Don't Care" is a song by English singer-songwriter Ed Sheeran and Canadian singer Justin Bieber. It was released on May 10, 2019, through Asylum, Atlantic Records and Def Jam Recordings as the lead single from the former's compilation album, No.6 Collaborations Project (2019).
+          ul.list-group.list-group-flush
+            li.list-group-item Album: No. 6 Collaborations Project
+            li.list-group-item Average Rating - 4.4
+            li.list-group-item Genres
+              | &nbsp;   
+              span.badge.rounded-pill.bg-secondary Electro-pop 
+              | &nbsp;    
+              span.badge.rounded-pill.bg-secondary Dance hall
+              | &nbsp;   
+          .card-footer.text-muted
+            | 2 days ago
+      
