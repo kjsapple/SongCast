@@ -5,7 +5,7 @@ var ctrlOthers = require('../controllers/others');
 /* Locations pages */
 router.get('/', ctrlCatalogue.homelist);
 router.get('/songs/review/new', ctrlCatalogue.addReview);
-router.get('/songs/Blinding Lights', ctrlCatalogue.songsInfo); 
+router.get('/songs/BlindingLights', ctrlCatalogue.songsInfo); 
 router.get('/songs/Bones', ctrlCatalogue.songsInfo1); 
 router.get('/songs/wd', ctrlCatalogue.songsInfo2); 
 router.get('/songs/idc', ctrlCatalogue.songsInfo3); 
