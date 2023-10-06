@@ -9,7 +9,6 @@ router.get('/songs/BlindingLights', ctrlCatalogue.songsInfo);
 router.get('/songs/Bones', ctrlCatalogue.songsInfo1); 
 router.get('/songs/wd', ctrlCatalogue.songsInfo2); 
 router.get('/songs/idc', ctrlCatalogue.songsInfo3); 
-router.get('/songs/Let Her Go', ctrlCatalogue.songsInfo4); 
 router.get('/songs/songs-catalogue', ctrlCatalogue.catalogue);
 
 
